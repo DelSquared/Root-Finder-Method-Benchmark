@@ -21,3 +21,6 @@ value: 1.4142135623731809
 error: 2.4291679778798425e-13
 time: 0.032692909240722656
 ```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DelSquared/Root-Finder-Method-Benchmark/master/plot.jpg" width="700"
+</p>
