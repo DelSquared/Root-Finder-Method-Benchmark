@@ -7,13 +7,13 @@ dx=0.04
 n=600
 times=20
 
-def f(x,der=False):
+def f(x,der=False): #initialising function
   if der==False:
     return x*x-2
   else:
     return 2*x
 
-def rootGD(func,dx,iter):
+def rootGD(func,dx,iter): #Gradient Descent analog (in this case it would be more like function descent)
   vals = []
   x=20
   vals.append(x)
@@ -22,7 +22,7 @@ def rootGD(func,dx,iter):
     vals.append(x)
   return vals
 
-def rootNR(func,dx,iter):
+def rootNR(func,dx,iter): #Newton-Raphson
   vals = []
   x=20
   vals.append(x)
@@ -32,7 +32,7 @@ def rootNR(func,dx,iter):
     vals.append(x)
   return vals
 
-def rootH(func,dx,iter):
+def rootH(func,dx,iter): #Hybrid between GD and NR
   vals = []
   x=20
   k=75
